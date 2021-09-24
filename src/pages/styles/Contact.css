@@ -1,0 +1,77 @@
+#contact {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/green&red.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#submit {
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+#submit:hover {
+  color: white;
+  background-color: #7ed957;
+}
+
+#container {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  max-height: 75vh;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+input {
+  margin-bottom: 20px;
+  height: 40px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0;
+}
+
+textarea {
+  margin-bottom: 20px;
+  height: 60px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0;
+}
+
+::placeholder {
+  color: rgb(104, 100, 100);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
