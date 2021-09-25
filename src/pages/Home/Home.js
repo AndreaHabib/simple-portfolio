@@ -2,6 +2,8 @@ const init_home = () => {
   const home = document.getElementById("home");
   const container = home.appendChild(document.createElement("div"));
   container.setAttribute("id", "container");
+  const header = container.appendChild(document.createElement("h2"));
+  header.innerHTML = "Hey! I'm Andrea Habib!";
   const image = container.appendChild(document.createElement("img"));
   image.setAttribute("id", "profile__image");
   image.setAttribute("alt", "my picture");

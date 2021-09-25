@@ -19,34 +19,34 @@ body {
 
 #skills {
   transition: transform 0.3s, border 0.5s, background-color 0.5s;
-  border: 10px solid rgba(255, 22, 22, 0.7);
+  border: 5px solid rgba(255, 22, 22, 0.7);
 }
 
 #skills:hover {
   transform: scale(1.05);
-  border: 10px solid rgba(255, 22, 22, 1);
+  border: 5px solid rgba(255, 22, 22, 1);
   background-color: rgba(255, 255, 255, 0.7);
 }
 
 #experience {
   transition: transform 0.3s;
-  border: 10px solid rgba(255, 22, 22, 0.7);
+  border: 5px solid rgba(255, 22, 22, 0.7);
 }
 
 #experience:hover {
   transform: scale(1.05);
-  border: 10px solid rgba(255, 22, 22, 1);
+  border: 5px solid rgba(255, 22, 22, 1);
   background-color: rgba(255, 255, 255, 0.7);
 }
 
 #hobbies {
   transition: transform 0.3s;
-  border: 10px solid rgba(255, 22, 22, 0.7);
+  border: 5px solid rgba(255, 22, 22, 0.7);
 }
 
 #hobbies:hover {
   transform: scale(1.05);
-  border: 10px solid rgba(255, 22, 22, 1);
+  border: 5px solid rgba(255, 22, 22, 1);
   background-color: rgba(255, 255, 255, 0.7);
 }
 
